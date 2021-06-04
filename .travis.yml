@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script: 
+  - docker build -t ccnorris63/node .
+  - docker images ccnorris63/node
